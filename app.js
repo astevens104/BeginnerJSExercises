@@ -70,10 +70,37 @@
 
 // Question 9 - is not the number 0
 
-function isNotZero(num1) {
-    return num1 != 0;
+// function isNotZero(num1) {
+//     return num1 !== 0;
+// }
+
+// console.log(isNotZero(5))
+
+// Question 10 - Calculate the remainder
+
+// function calcRemainder(num1, num2) {
+//     return num1 % num2;
+// }
+
+// console.log(calcRemainder(9, 8));
+
+// Question 11 - Is the number odd?
+
+// function isNumberOdd(num) {
+//     return num % 2 !== 0;
+// }
+
+// console.log(isNumberOdd(6))
+
+// Question 12 - If a number is even, return 1, othwerwise return -1
+
+function booleanInteger(num) {
+    // if (num % 2 === 0) {
+    // return 1
+    // }
+    // return -1
+
+    return (num % 2 === 0) ? 1 : -1 // streamlined
 }
 
-console.log(isNotZero(5))
-
-
+console.log(booleanInteger(4) )
