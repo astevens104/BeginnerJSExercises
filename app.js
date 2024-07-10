@@ -94,13 +94,40 @@
 
 // Question 12 - If a number is even, return 1, othwerwise return -1
 
-function booleanInteger(num) {
-    // if (num % 2 === 0) {
-    // return 1
-    // }
-    // return -1
+// 
+// function booleanInteger(num) {
 
-    return (num % 2 === 0) ? 1 : -1 // streamlined
+//     // if (num % 2 === 0) {
+//     //     return 1;
+//     // }
+//     //     return -1;
+
+//     return (num % 2 === 0) ? 1 : -1  // streamlined method
+// }
+
+// console.log(booleanInteger(5))
+
+// question 13 - Check if a user is logged in AND subscribed
+
+// function isLoggedInAndSubscribed (login, sub) {
+
+//     // true && true return true
+//     return (login === 'LOGGED_IN') && (sub === 'SUBSCRIBED');  // streamlined
+
+
+//     // if (login === 'LOGGED_IN' && sub === 'SUBSCRIBED') {
+//     //     return true;
+//     // }
+//     // return false;
+// }
+
+// console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'));
+
+// Question 14 Check if a user is logged in or unsubsscribed
+
+function isLoggedInOrSubscribed (loggedIn, subscribed) {
+    return (loggedIn === 'LOGGED_IN' || subscribed === 'SUBSCRIBED');
 }
 
-console.log(booleanInteger(4) )
+console.log(isLoggedInOrSubscribed('LOGGED_OUT', 'UNSUBSCRIBED'));
+
