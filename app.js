@@ -60,4 +60,20 @@
 
 // console.log(lessThanOrEqualToZero(0))
 
-// Question 8 - 
+// Question 8 - Opposite boolean
+
+// function oppositeBoolean(bool) {
+//     return !bool;
+// }
+
+// console.log(oppositeBoolean(false));
+
+// Question 9 - is not the number 0
+
+function isNotZero(num1) {
+    return num1 != 0;
+}
+
+console.log(isNotZero(5))
+
+
